@@ -8,7 +8,7 @@ See subtasks and data sources at <https://github.com/iobis/dto-bioflow-3.5/issue
 
 - ICES: neilh@ices.dk, lise.cronne@ices.dk
 - MARIS: peter@maris.nl, tjerk@maris.nl 
-- Naturalis: sharif.islam@naturalis.nl
+- Naturalis: sharif.islam@naturalis.nl sharifX
 - VLIZ: leen.vandepitte@vliz.be leenvandepitte
 - MBA: dble@mba.ac.uk dblear
 - CSIC: jpiera@icm.csic.es
