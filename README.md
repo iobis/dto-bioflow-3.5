@@ -2,6 +2,8 @@
 
 This is the repository for DTO BioFlow Task 3.5 "Building the biodiversity component with other relevant biodiversity data sources".
 
+See subtasks and data sources at <https://github.com/iobis/dto-bioflow-3.5/issues>.
+
 ## Partners
 
 - ICES: neilh@ices.dk, lise.cronne@ices.dk
