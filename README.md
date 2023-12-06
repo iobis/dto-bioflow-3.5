@@ -10,7 +10,7 @@ See subtasks and data sources at <https://github.com/iobis/dto-bioflow-3.5/issue
 - MARIS: peter@maris.nl, tjerk@maris.nl 
 - Naturalis: sharif.islam@naturalis.nl sharifX, juliancervos
 - VLIZ: leen.vandepitte@vliz.be leenvandepitte
-- MBA: dble@mba.ac.uk dblear
+- MBA: dble@mba.ac.uk dblear chagou@mba.ac.uk charliegough
 - CSIC: jpiera@icm.csic.es
 - Ciimar: isabel.sousa.pinto@gmail.com
 - EMBL: rdf@ebi.ac.uk, shriya@ebi.ac.uk
