@@ -6,7 +6,7 @@ See subtasks and data sources at <https://github.com/iobis/dto-bioflow-3.5/issue
 
 ## Partners
 
-- ICES: neilh@ices.dk, lise.cronne@ices.dk
+- ICES: neilh@ices.dk neil-ices-dk, lise.cronne@ices.dk
 - MARIS: peter@maris.nl, tjerk@maris.nl 
 - Naturalis: sharif.islam@naturalis.nl sharifX, juliancervos
 - VLIZ: leen.vandepitte@vliz.be leenvandepitte
