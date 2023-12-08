@@ -32,3 +32,7 @@ See subtasks and data sources at <https://github.com/iobis/dto-bioflow-3.5/issue
 - Task
 - Who
 - Notes
+
+## EMODnet levels
+
+<img width="803" alt="emodnet_levels" src="https://github.com/iobis/dto-bioflow-3.5/assets/490041/99edd278-eb1e-4559-9d67-350e538ceb67">
