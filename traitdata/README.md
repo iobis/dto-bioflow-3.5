@@ -30,7 +30,17 @@ BUT
 
 WoRMS hierarchy is more like Parent trait -> Child trait, however expressed within measurementID, category, measurementType (darwin core extension)  
 
-These show up as "measurementTypeID". 
+These show up as "measurementTypeID".
+
+Key aspects of WoRMS to note:
+
+AphiaID 
+but also 
+AphiaAttributeKeysByID
+AphiaAttributesByAphiaID
+AphiaAttributeValuesByCategoryID
+
+these are endpoints that provides the properties. 
 
 **BUT** 
 
