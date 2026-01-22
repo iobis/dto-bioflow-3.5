@@ -30,6 +30,74 @@ BUT
 
 WoRMS hierarchy is more like Parent trait -> Child trait, however expressed within measurementID, category, measurementType (darwin core extension)  
 
+These show up as "measurementTypeID". 
+
+**BUT** 
+
+https://www.marinespecies.org/rest/AphiaAttributesByAphiaID/276793?include_inherited=false 
+
+also shows 
+
+```
+   "AphiaID": 276793,
+    "measurementTypeID": 144,
+    "measurementType": "Species exhibits underwater soniferous behaviour",
+    "measurementValue": "Likely to produce sound under natural conditions but unconfirmed",
+    "source_id": 452075,
+    "reference": "Rice, A. N.; Farina, S. C.; Makowski, A. J.; Kaatz, I. M.; Lobel, P. S.; Bemis, W. E.; Bass, A. H. (2022). Evolutionary Patterns in Sound Production across Fishes. Ichthyology & Herpetology, 110(1): 1-12.",
+    "qualitystatus": "unreviewed",
+    "AphiaID_Inherited": 276793,
+    "CategoryID": 55,
+    "children": []
+  },
+  {
+
+{
+    "AphiaID": 276793,
+    "measurementTypeID": 23,
+    "measurementType": "Species importance to society",
+    "measurementValue": "IUCN Red List",
+    "source_id": 127093,
+    "reference": "IUCN Red List of Threatened Species",
+    "qualitystatus": "unreviewed",
+    "AphiaID_Inherited": 276793,
+    "CategoryID": 13,
+    "children": [
+      {
+
+```
+So we will need to find all these mappings? 
+
+https://marinespecies.org/traits/aphia.php?p=rest&__route__/AphiaAttributeKeysByID/23?include_children=true shows 
+
+```
+[
+  {
+    "measurementTypeID": 23,
+    "measurementType": "Species importance to society",
+    "CategoryID": 13,
+    "children": [
+      {
+        "measurementTypeID": 1,
+        "measurementType": "IUCN Red List Category",
+        "CategoryID": 1,
+        "children": [
+          {
+            "measurementTypeID": 2,
+            "measurementType": "Criteria",
+            "CategoryID": null,
+            "children": []
+          },
+          {
+            "measurementTypeID": 3,
+            "measurementType": "Year Assessed",
+            "CategoryID": null,
+            "children": []
+          }
+        ]
+      },
+```
+
 
 API response: 
 https://www.marinespecies.org/rest/AphiaAttributeKeysByID/15
@@ -126,4 +194,3 @@ Connection with taxon id:
 https://marinespecies.org/traits/aphia.php?p=attrdetails&id=296033&tid=276793 
 
 here tid=276793 is the taxon id for *Abalistes filamentosus* 
-
